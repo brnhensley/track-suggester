@@ -1,4 +1,4 @@
-// questions are id'd "q1"-"q5" answers are class'd "a1"-"a5"
+// questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" - I chose to go with a1...a5 because answerOne... was taking a lot of space in my if else statements
 
 $(document).ready(function() {
   $("form").submit(function(event) {
@@ -25,11 +25,11 @@ $(document).ready(function() {
       $("#design").show();
     }
 
-    console.log(a1);
-    console.log(a2);
-    console.log(a3);
-    console.log(a4);
-    console.log("-----");
     event.preventDefault();
   })
 })
+    // console.log(a1);
+    // console.log(a2);
+    // console.log(a3);
+    // console.log(a4);
+    // console.log("-----");
