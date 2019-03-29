@@ -12,11 +12,11 @@ $(document).ready(function() {
       $("#csharp").show();
     } else if ((a1 === "design") && (a2 === "design") && (a3 === "design") && (a4 = "design")) {
       $("#design").show();
-    } else if ((a1 === "java") && (a2 === "java") && (a3 === "java")) {
+    } else if (a1 === "java" && a2 === "java" && a3 === "java") {
       $("#java").show();
-    }  else if ((a1 === "php") && (a2 === "php") && (a3 === "php")) {
+    }  else if (a1 === "php" && a2 === "php" && a3 === "php") {
       $("#php").show();
-    } else if ((a1 === "ruby") && (a2 === "ruby") && (a3 === "ruby")) {
+    }  else if (a1 === "ruby" && a2 === "ruby" && a3 === "ruby") {
       $("#ruby").show();
     }
 
