@@ -8,9 +8,9 @@ $(document).ready(function() {
 
     if (a1 === "noAnswer" || a2 === "noAnswer" || a3 === "noAnswer" || a4 === "noAnswer") {
       $("#klingon").show();
-    } else if ((a1 === "csharp") && (a2 === "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
+    } else if (a1 === "csharp" && a2 === "csharp" && a3 === "csharp" && a4 === "csharp") {
       $("#csharp").show();
-    } else if ((a1 === "design") && (a2 === "design") && (a3 === "design") && (a4 = "design")) {
+    } else if (a1 === "design" && a2 === "design" && a3 === "design" && a4 === "design") {
       $("#design").show();
     } else if (a1 === "java" && a2 === "java" && a3 === "java") {
       $("#java").show();
@@ -18,8 +18,12 @@ $(document).ready(function() {
       $("#php").show();
     }  else if (a1 === "ruby" && a2 === "ruby" && a3 === "ruby") {
       $("#ruby").show();
+// I'm sorry
+    }  else if  (((a1 === "csharp" && a2 === "csharp") && ( a3 === "csharp" || a4 === "csharp" )) || ( a2 === "csharp" && a3 === "csharp" && a4 === "csharp" ) || ( a1 === "csharp" && a3 === "csharp" && a4 === "csharp" )) {
+      $("#csharp").show();
+    }  else if  (((a1 === "design" && a2 === "design") && ( a3 === "design" || a4 === "design" )) || ( a2 === "design" && a3 === "design" && a4 === "design" ) || ( a1 === "design" && a3 === "design" && a4 === "design" )) {
+      $("#design").show();
     }
-
 
     console.log(a1);
     console.log(a2);
