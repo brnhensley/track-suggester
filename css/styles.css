@@ -6,14 +6,23 @@ h1 {
   text-align: center;
 }
 
+h4 {
+  padding-bottom: 20px;
+}
+
 .results {
   display: none;
 }
 
 form {
-  padding-top: 40px
+  padding-top: 40px;
+  width: 50%;
 }
 
 .container {
   padding: 5%;
+}
+
+form {
+
 }

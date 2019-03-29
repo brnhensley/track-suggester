@@ -10,69 +10,68 @@
   </head>
   <body>
     <div class="container">
-      <h1>Code Language Track Suggester</h1>
+      <h1>Epicodus Code Language Track Suggester</h1>
       <!-- Quiz starts here, questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" -->
       <form id="quiz">
         <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
         <div class="form-group">
-
+          <label for="q1">What type of environment would you like to work in?</label>
           <select class="form-control" id="q1">
-            <label for="q1">What type of environment would you like to work in?</label>
             <option value="noAnswer"></option>
             <option value="csharp">Larger Companies and corporations</option>
             <option value="java">Enterprise companies</option>
             <option value="ruby">Startups and smaller companies</option>
             <option value="a4"></option>
             <option value="a5"></option>
-          </select>
+          </select><br>
 
+          <label for="q2">What type of programming interests you?</label>
           <select class="form-control" id="q2">
-            <label for="q2">What type of programming interests you?</label>
             <option value="noAnswer"></option>
             <option value="csharp">Building internal software</option>
             <option value="java">Developing Android user interfaces</option>
             <option value="php">Back-end web development</option>
             <option value="design">Front-end development</option>
             <option value="a5"></option>
-          </select>
-          
+          </select><br>
+
+          <label for="q3">What appeals to you more?</label>
           <select class="form-control" id="q3">
-            <label for="q3">What appeals to you more?</label>
             <option value="noAnswer"></option>
             <option value="csharp">Focusing on older, well established languages.</option>
             <option value="java">Learning a high demand language.</option>
             <option value="a3"></option>
             <option value="design">Making a website look beautiful</option>
             <option value="ruby">Making a website creative and interactive</option>
-          </select>
+          </select><br>
 
+          <label for="q4">Question</label>
           <select class="form-control" id="q4">
-            <label for="q4">Question</label>
             <option value="noAnswer"></option>
             <option value="a1"></option>
             <option value="a2"></option>
             <option value="a3"></option>
             <option value="a4"></option>
             <option value="a5"></option>
-          </select>
+          </select><br>
 
+          <label for="q5">Question</label>
           <select class="form-control" id="q5">
-            <label for="q5">Question</label>
             <option value="noAnswer"></option>
             <option value="a1"></option>
             <option value="a2"></option>
             <option value="a3"></option>
             <option value="a4"></option>
             <option value="a5"></option>
-          </select>
+          </select><br>
 
+          <label for="gender">What is your gender?</label>
           <select class="form-control" id="gender">
-            <label for="gender">What is your gender?</label>
             <option>Male</option>
             <option>Female</option>
             <option>Amorphous blob</option>
-            <option>It doesn't matter because gender inequallity is a social construct that exists to maintain a power dynamic that benefits those in power at the expense of those not.</option>
-          </select>
+            <option>It doesn't matter because gender inequallity is a social construct.</option>
+          </select><br>
         </div>
         <button type="submit" class="btn-success">Show me my track!</button>
       </form>

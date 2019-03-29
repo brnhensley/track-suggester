@@ -5,6 +5,10 @@ $(document).ready(function() {
     var thirdAnswer = $("#q3").val();
     var fourthAnswer = $("#q4").val();
     var fifthAnswer = $("#q5").val();
+
+
+
+
     console.log(firstAnswer);
     console.log(secondAnswer);
     console.log(thirdAnswer);
