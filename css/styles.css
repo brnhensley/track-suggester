@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-  text-align: center;
+  align-self: center;
+  padding-top: 3%;
 }
 
 h4 {
@@ -15,16 +16,20 @@ h4 {
 }
 
 form {
-  padding-top: 40px;
-  width: 50%;
+  padding-top: 30px;
 }
 
-.container {
+/* .container {
   padding: 5%;
-}
+} */
 
 p {
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+.answers {
+  padding-top: 200px;
+  padding-left: 5%;
 }

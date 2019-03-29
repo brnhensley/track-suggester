@@ -8,71 +8,78 @@
     <meta charset="utf-8">
     <title>Track Suggester</title>
   </head>
+
   <body>
     <div class="container">
-      <h1>Epicodus Code Language Track Suggester</h1>
-      <!-- Quiz starts here, questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" -->
-      <form id="quiz">
-        <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
-        <div class="form-group">
-          <label for="q1">What type of environment would you like to work in?</label>
-          <select class="form-control" id="q1">
-            <option value="noAnswer"></option>
-            <option value="csharp">Larger Companies and corporations</option>
-            <option value="design">Marketing and media companies</option>
-            <option value="java">Enterprise companies</option>
-            <option value="php">Fast paced companies producing a lot of web content.</option>
-            <option value="ruby">Startups and smaller companies</option>
+      <div class="row">
+        <h1>Epicodus Code Language Track Suggester</h1>
+        <div class="col-md-6">
+          <!-- Quiz starts here, questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" -->
+          <form id="quiz">
+            <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
+            <div class="form-group">
+              <label for="q1">What type of environment would you like to work in?</label>
+              <select class="form-control" id="q1">
+                <option value="noAnswer"></option>
+                <option value="csharp">Larger Companies and corporations</option>
+                <option value="design">Marketing and media companies</option>
+                <option value="java">Enterprise companies</option>
+                <option value="php">Fast paced companies producing a lot of web content.</option>
+                <option value="ruby">Startups and smaller companies</option>
 
-          </select><br>
+              </select><br>
 
-          <label for="q2">What type of programming interests you?</label>
-          <select class="form-control" id="q2">
-            <option value="noAnswer"></option>
-            <option value="csharp">Building internal software</option>
-            <option value="design">Designing look of websites</option>
-            <option value="java">Developing Android user interfaces</option>
-            <option value="php">Building ack-end web development</option>
-            <option value="ruby">Building interactive web development</option>
-          </select><br>
+              <label for="q2">What type of programming interests you?</label>
+              <select class="form-control" id="q2">
+                <option value="noAnswer"></option>
+                <option value="csharp">Building internal software</option>
+                <option value="design">Designing look of websites</option>
+                <option value="java">Developing Android user interfaces</option>
+                <option value="php">Building ack-end web development</option>
+                <option value="ruby">Building interactive web development</option>
+              </select><br>
 
-          <label for="q3">What appeals to you more?</label>
-          <select class="form-control" id="q3">
-            <option value="noAnswer"></option>
-            <option value="csharp">Focusing on older, well established languages.</option>
-            <option value="design">Making a website look beautiful</option>
-            <option value="java">Learning a high demand language.</option>
-            <option value="php">Building and maintaining websites from the 'server-side'.</option>
-            <option value="ruby">Making a website creative and interactive</option>
-          </select><br>
+              <label for="q3">What appeals to you more?</label>
+              <select class="form-control" id="q3">
+                <option value="noAnswer"></option>
+                <option value="csharp">Focusing on older, well established languages.</option>
+                <option value="design">Making a website look beautiful</option>
+                <option value="java">Learning a high demand language.</option>
+                <option value="php">Building and maintaining websites from the 'server-side'.</option>
+                <option value="ruby">Making a website creative and interactive</option>
+              </select><br>
 
-          <label for="q4">Would you like to work on Front-end or Back-end?</label>
-          <select class="form-control" id="q4">
-            <option value="noAnswer"></option>
-            <option value="csharp">Back-end</option>
-            <option value="design">Front-end</option>
-          </select><br>
+              <label for="q4">Would you like to work on Front-end or Back-end?</label>
+              <select class="form-control" id="q4">
+                <option value="noAnswer"></option>
+                <option value="csharp">Back-end</option>
+                <option value="design">Front-end</option>
+              </select><br>
 
-          <label for="gender">What is your gender?</label>
-          <select class="form-control" id="gender">
-            <option></option>
-            <option>Male</option>
-            <option>Female</option>
-            <option>Amorphous blob</option>
-            <option>It doesn't matter because gender inequallity is a social construct.</option>
-          </select><br>
+              <label for="gender">What is your gender?</label>
+              <select class="form-control" id="gender">
+                <option></option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Amorphous blob</option>
+                <option>It doesn't matter because gender inequallity is a social construct.</option>
+              </select><br>
+            </div>
+            <button type="submit" class="btn-success">Show me my track!</button>
+          </form>
         </div>
-        <button type="submit" class="btn-success">Show me my track!</button>
-      </form>
 
-      <br>
-      <p class="results" id="ruby">You should try the Ruby/Rails track! <a href="https://www.epicodus.com/ruby">Click here</a> for more information!</p>
-      <p class="results" id="php">You should try the PHP/Drupal track! <a href="https://www.epicodus.com/php">Click here</a> for more information!</p>
-      <p class="results" id="java">You should try the Java/Android track! <a href="https://www.epicodus.com/java">Click here</a> for more information!</p>
-      <p class="results" id="design">You should try the CSS/Design track! <a href="https://www.epicodus.com/css">Click here</a>, and <a href="https://www.epicodus.com/design">here</a> for more information!</p>
-      <p class="results" id="csharp">You should try the C#/.NET track! <a href="https://www.epicodus.com/c-sharp">Click here</a> for more information!</p>
-      <p class="results" id="klingon">You didn't fill out the form! If you aren't going to take your future seriously we  suggest learning Klingon. <a href="https://www.kli.org/">Click here</a> for more information!</p>
-
+        <div class="col-md-6">
+          <div class="answers">
+            <p class="results" id="ruby">You should try the Ruby/Rails track! <a href="https://www.epicodus.com/ruby">Click here</a> for more information!</p>
+            <p class="results" id="php">You should try the PHP/Drupal track! <a href="https://www.epicodus.com/php">Click here</a> for more information!</p>
+            <p class="results" id="java">You should try the Java/Android track! <a href="https://www.epicodus.com/java">Click here</a> for more information!</p>
+            <p class="results" id="design">You should try the CSS/Design track! <a href="https://www.epicodus.com/css">Click here</a>, and <a href="https://www.epicodus.com/design">here</a> for more information!</p>
+            <p class="results" id="csharp">You should try the C#/.NET track! <a href="https://www.epicodus.com/c-sharp">Click here</a> for more information!</p>
+            <p class="results" id="klingon">You didn't fill out the form! If you aren't going to take your future seriously we  suggest learning Klingon. <a href="https://www.kli.org/">Click here</a> for more information!</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
