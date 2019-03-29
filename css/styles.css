@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  align-self: center;
+  text-align: center;
   padding-top: 3%;
 }
 
@@ -19,9 +19,9 @@ form {
   padding-top: 30px;
 }
 
-/* .container {
+.container {
   padding: 5%;
-} */
+}
 
 p {
   font-size: 30px;
