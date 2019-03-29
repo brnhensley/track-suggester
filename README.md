@@ -1,6 +1,6 @@
 # Coding Language Track Suggester _
 
-#### _A webpage portfolio of Brian Hensley's work, 3-22-19_
+#### _A coding language track suggester for Epicodus, 3-29-19_
 
 #### By _**Brian Hensley**_
 
