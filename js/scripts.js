@@ -4,6 +4,7 @@ $(document).ready(function() {
     var a2 = $("#q2").val();
     var a3 = $("#q3").val();
     var a4 = $("#q4").val();
+    $("body").find("p").hide();
 
     if (a1 === "noAnswer" || a2 === "noAnswer" || a3 === "noAnswer" || a4 === "noAnswer") {
       $("#klingon").show();
