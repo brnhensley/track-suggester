@@ -1,19 +1,20 @@
 $(document).ready(function() {
   $("form").submit(function(event) {
-    var firstAnswer = $("#q1").val();
-    var secondAnswer = $("#q2").val();
-    var thirdAnswer = $("#q3").val();
-    var fourthAnswer = $("#q4").val();
-    var fifthAnswer = $("#q5").val();
+    var a1 = $("#q1").val();
+    var a2 = $("#q2").val();
+    var a3 = $("#q3").val();
+    var a4 = $("#q4").val();
+
+    if ((a1 === "csharp") && (a2 ===  "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
+      $("#csharp").show();
+    }
 
 
 
-
-    console.log(firstAnswer);
-    console.log(secondAnswer);
-    console.log(thirdAnswer);
-    console.log(fourthAnswer);
-    console.log(fifthAnswer);
+    console.log(a1);
+    console.log(a2);
+    console.log(a3);
+    console.log(a4);
 
     event.preventDefault();
   })
