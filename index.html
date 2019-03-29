@@ -15,6 +15,7 @@
       <form id="quiz">
         <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
         <div class="form-group">
+
           <select class="form-control" id="q1">
             <label for="q1">What type of environment would you like to work in?</label>
             <option value="noAnswer"></option>
@@ -24,15 +25,7 @@
             <option value="a4"></option>
             <option value="a5"></option>
           </select>
-        </div>
-          <!-- <div class="radio">
-             What type of environment would you like to work in?<br>
-            <label>
-              <input type="radio" name="" value="" checked>
-              Larger Companies and corporations.
-            </label>
-          </div> -->
-        <div class="form-group">
+
           <select class="form-control" id="q2">
             <label for="q2">What type of programming interests you?</label>
             <option value="noAnswer"></option>
@@ -42,8 +35,7 @@
             <option value="design">Front-end development</option>
             <option value="a5"></option>
           </select>
-        </div>
-        <div class="form-group">
+          
           <select class="form-control" id="q3">
             <label for="q3">What appeals to you more?</label>
             <option value="noAnswer"></option>
@@ -53,9 +45,7 @@
             <option value="design">Making a website look beautiful</option>
             <option value="ruby">Making a website creative and interactive</option>
           </select>
-        </div>
 
-        <div class="form-group">
           <select class="form-control" id="q4">
             <label for="q4">Question</label>
             <option value="noAnswer"></option>
@@ -65,8 +55,7 @@
             <option value="a4"></option>
             <option value="a5"></option>
           </select>
-        </div>
-        <div class="form-group">
+
           <select class="form-control" id="q5">
             <label for="q5">Question</label>
             <option value="noAnswer"></option>
@@ -76,8 +65,15 @@
             <option value="a4"></option>
             <option value="a5"></option>
           </select>
-        </div>
 
+          <select class="form-control" id="gender">
+            <label for="gender">What is your gender?</label>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Amorphous blob</option>
+            <option>It doesn't matter because gender inequallity is a social construct that exists to maintain a power dynamic that benefits those in power at the expense of those not.</option>
+          </select>
+        </div>
         <button type="submit" class="btn-success">Show me my track!</button>
       </form>
 
