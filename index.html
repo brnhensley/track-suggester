@@ -12,15 +12,15 @@
     <div class="container">
       <h1>Code Language Track Suggester</h1>
       <!-- Quiz starts here, questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" -->
-      <form class="radio-buttons" id="quiz">
+      <form id="quiz">
         <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
-        <div id="q1">
-          <select class="form-control">
-            What type of environment would you like to work in?<br>
+        <div class="form-group">
+          <select class="form-control" id="q1">
+            <label for="q1">What type of environment would you like to work in?</label>
             <option class="noAnswer"></option>
-            <option class="a1">Larger Companies and corporations.</option>
-            <option class="a2"></option>
-            <option class="a3"></option>
+            <option class="csharp">Larger Companies and corporations</option>
+            <option class="java">Enterprise companies</option>
+            <option class="ruby">Startups and smaller companies</option>
             <option class="a4"></option>
             <option class="a5"></option>
           </select>
@@ -32,32 +32,32 @@
               Larger Companies and corporations.
             </label>
           </div> -->
-        <div id="q2">
-          <select class="form-control">
-            Question<br>
+        <div class="form-group">
+          <select class="form-control" id="q2">
+            <label for="q2">What type of programming interests you?</label>
             <option class="noAnswer"></option>
-            <option class="a1"></option>
-            <option class="a2"></option>
-            <option class="a3"></option>
-            <option class="a4"></option>
+            <option class="csharp">Building internal software</option>
+            <option class="java">Developing Android user interfaces</option>
+            <option class="php">Back-end web development</option>
+            <option class="design">Front-end development</option>
             <option class="a5"></option>
           </select>
         </div>
-        <div id="q3">
-          <select class="form-control">
-            Question<br>
+        <div class="form-group">
+          <select class="form-control" id="q3">
+            <label for="q3">What appeals to you more?</label>
             <option class="noAnswer"></option>
-            <option class="a1"></option>
-            <option class="a2"></option>
+            <option class="csharp">Focusing on older, well established languages.</option>
+            <option class="java">Learning a high demand language.</option>
             <option class="a3"></option>
-            <option class="a4"></option>
-            <option class="a5"></option>
+            <option class="design">Making a website look beautiful</option>
+            <option class="ruby">Making a website creative and interactive</option>
           </select>
         </div>
 
-        <div id="q4">
-          <select class="form-control">
-            Question<br>
+        <div class="form-group">
+          <select class="form-control" id="q4">
+            <label for="q4">Question</label>
             <option class="noAnswer"></option>
             <option class="a1"></option>
             <option class="a2"></option>
@@ -66,9 +66,9 @@
             <option class="a5"></option>
           </select>
         </div>
-        <div id="q5">
-          <select class="form-control">
-            Question<br>
+        <div class="form-group">
+          <select class="form-control" id="q5">
+            <label for="q5">Question</label>
             <option class="noAnswer"></option>
             <option class="a1"></option>
             <option class="a2"></option>
