@@ -10,7 +10,7 @@ _This is a webpage that will use Select boxes to help some one decide which codi
 
 ## Setup/Installation Requirements
 
-* _Clone from github at https://github.com/brnhensley/track-suggester _
+* _Clone from github at https://github.com/brnhensley/track-suggester_
 
 * _Open index.html in your browser_
 
