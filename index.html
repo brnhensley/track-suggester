@@ -11,18 +11,82 @@
   <body>
     <div class="container">
       <h1>Code Language Track Suggester</h1>
-      <form class="quiz">
+      <!-- Quiz starts here, questions are id'd "q1"-"q5" answers are class'd "a1"-"a5" -->
+      <form class="radio-buttons" id="quiz">
         <h4>Tell us about yourself and we will suggest a learning track for you.</h4>
+        <div id="q1">
+          <select class="form-control">
+            What type of environment would you like to work in?<br>
+            <option class="noAnswer"></option>
+            <option class="a1">Larger Companies and corporations.</option>
+            <option class="a2"></option>
+            <option class="a3"></option>
+            <option class="a4"></option>
+            <option class="a5"></option>
+          </select>
+        </div>
+          <!-- <div class="radio">
+             What type of environment would you like to work in?<br>
+            <label>
+              <input type="radio" name="" value="" checked>
+              Larger Companies and corporations.
+            </label>
+          </div> -->
+        <div id="q2">
+          <select class="form-control">
+            Question<br>
+            <option class="noAnswer"></option>
+            <option class="a1"></option>
+            <option class="a2"></option>
+            <option class="a3"></option>
+            <option class="a4"></option>
+            <option class="a5"></option>
+          </select>
+        </div>
+        <div id="q3">
+          <select class="form-control">
+            Question<br>
+            <option class="noAnswer"></option>
+            <option class="a1"></option>
+            <option class="a2"></option>
+            <option class="a3"></option>
+            <option class="a4"></option>
+            <option class="a5"></option>
+          </select>
+        </div>
 
+        <div id="q4">
+          <select class="form-control">
+            Question<br>
+            <option class="noAnswer"></option>
+            <option class="a1"></option>
+            <option class="a2"></option>
+            <option class="a3"></option>
+            <option class="a4"></option>
+            <option class="a5"></option>
+          </select>
+        </div>
+        <div id="q5">
+          <select class="form-control">
+            Question<br>
+            <option class="noAnswer"></option>
+            <option class="a1"></option>
+            <option class="a2"></option>
+            <option class="a3"></option>
+            <option class="a4"></option>
+            <option class="a5"></option>
+          </select>
+        </div>
 
         <button type="submit" class="btn-success">Show me my track!</button>
       </form>
 
-      <p class="results" id="ruby">You should try the Ruby/Rails track! <a href="https://www.epicodus.com/ruby">Click here</a> for more information.</p>
-      <p class="results" id="php">You should try the PHP/Drupal track! <a href="https://www.epicodus.com/php">Click here</a> for more information.</p>
-      <p class="results" id="java">You should try the Java/Android track! <a href="https://www.epicodus.com/java">Click here</a> for more information.</p>
-      <p class="results" id="design">You should try the CSS/Design track! <a href="https://www.epicodus.com/css">Click here</a>, and <a href="https://www.epicodus.com/design">here</a> for more information.</p>
-      <p class="results" id="csharp">You should try the C#/.NET track! <a href="https://www.epicodus.com/c-sharp">Click here</a> for more information.</p>
+      <p class="results" id="ruby">You should try the Ruby/Rails track! <a href="https://www.epicodus.com/ruby">Click here</a> for more information!</p>
+      <p class="results" id="php">You should try the PHP/Drupal track! <a href="https://www.epicodus.com/php">Click here</a> for more information!</p>
+      <p class="results" id="java">You should try the Java/Android track! <a href="https://www.epicodus.com/java">Click here</a> for more information!</p>
+      <p class="results" id="design">You should try the CSS/Design track! <a href="https://www.epicodus.com/css">Click here</a>, and <a href="https://www.epicodus.com/design">here</a> for more information!</p>
+      <p class="results" id="csharp">You should try the C#/.NET track! <a href="https://www.epicodus.com/c-sharp">Click here</a> for more information!</p>
+      <p class="results" id="klingon">You didn't fill out the form! If you aren't going to take your future seriously we  suggest learning Klingon. <a href="https://www.kli.org/">Click here</a> for more information!</p>
 
     </div>
   </body>
