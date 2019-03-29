@@ -5,10 +5,11 @@ $(document).ready(function() {
     var a3 = $("#q3").val();
     var a4 = $("#q4").val();
 
-    if ((a1 === "csharp") && (a2 ===  "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
+    if (a1 === "noAnswer" || a2 === "noAnswer" || a3 === "noAnswer" || a4 === "noAnswer") {
+      $("#klingon").show();
+    } else if ((a1 === "csharp") && (a2 ===  "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
       $("#csharp").show();
     }
-
 
 
     console.log(a1);
