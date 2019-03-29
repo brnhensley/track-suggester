@@ -10,6 +10,8 @@ $(document).ready(function() {
       $("#klingon").show();
     } else if ((a1 === "csharp") && (a2 ===  "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
       $("#csharp").show();
+    } else if ((a1 === "design") && (a2 ===  "design") && (a3 === "design") && (a4 = "design")) {
+      $("#design").show();
     }
 
 

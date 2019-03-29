@@ -23,6 +23,8 @@ form {
   padding: 5%;
 }
 
-form {
-
+p {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
