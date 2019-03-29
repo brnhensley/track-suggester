@@ -8,10 +8,16 @@ $(document).ready(function() {
 
     if (a1 === "noAnswer" || a2 === "noAnswer" || a3 === "noAnswer" || a4 === "noAnswer") {
       $("#klingon").show();
-    } else if ((a1 === "csharp") && (a2 ===  "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
+    } else if ((a1 === "csharp") && (a2 === "csharp") && (a3 === "csharp") && (a4 = "csharp")) {
       $("#csharp").show();
-    } else if ((a1 === "design") && (a2 ===  "design") && (a3 === "design") && (a4 = "design")) {
+    } else if ((a1 === "design") && (a2 === "design") && (a3 === "design") && (a4 = "design")) {
       $("#design").show();
+    } else if ((a1 === "java") && (a2 === "java") && (a3 === "java")) {
+      $("#java").show();
+    }  else if ((a1 === "php") && (a2 === "php") && (a3 === "php")) {
+      $("#php").show();
+    } else if ((a1 === "ruby") && (a2 === "ruby") && (a3 === "ruby")) {
+      $("#ruby").show();
     }
 
 
