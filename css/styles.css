@@ -5,3 +5,15 @@ body {
 h1 {
   text-align: center;
 }
+
+/* .results {
+  display: none;
+} */
+
+form {
+  padding-top: 40px
+}
+
+.container {
+  padding: 5%;
+}
