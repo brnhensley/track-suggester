@@ -14,6 +14,8 @@ _This is a webpage that will use Select boxes to help some one decide which codi
 
 * _Open index.html in your browser_
 
+* _Or go to https://brnhensley.github.io/track-suggester/_
+
 * _Answer the select box questions_
 
 * _Learn which track is for you!_
