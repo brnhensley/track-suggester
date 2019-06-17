@@ -1,4 +1,4 @@
-# Coding Language Track Suggester _
+# _Coding Language Track Suggester_
 
 #### _A coding language track suggester for Epicodus, 3-29-19_
 
